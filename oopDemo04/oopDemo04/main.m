@@ -7,11 +7,25 @@
 //
 
 #import <Foundation/Foundation.h>
-
+/*
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        // insert code here...
         NSLog(@"Hello, World!");
+    }
+    return 0;
+}
+*/
+/*类扩展*/
+#import "ZKCar+drive.h"
+int main(int argc, const char * argv[]) {
+    @autoreleasepool {
+        ZKCar* car=[[ZKCar alloc] init];
+        //为对象赋值
+        car.brand=@"BMW";
+        car.model=@"X8";
+        car.color=@"白色";
+        [car drßive];
+        [car drive:@"zs"];
     }
     return 0;
 }
