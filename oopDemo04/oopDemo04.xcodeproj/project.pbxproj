@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		041976DF1C8D1DAC0050A4AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 041976DE1C8D1DAC0050A4AB /* main.m */; };
+		041976E71C8D24940050A4AB /* ZKCar.m in Sources */ = {isa = PBXBuildFile; fileRef = 041976E61C8D24940050A4AB /* ZKCar.m */; };
+		041976F01C8D320F0050A4AB /* ZKPrint.m in Sources */ = {isa = PBXBuildFile; fileRef = 041976EF1C8D320F0050A4AB /* ZKPrint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,14 @@
 /* Begin PBXFileReference section */
 		041976DB1C8D1DAC0050A4AB /* oopDemo04 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = oopDemo04; sourceTree = BUILT_PRODUCTS_DIR; };
 		041976DE1C8D1DAC0050A4AB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		041976E51C8D24940050A4AB /* ZKCar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKCar.h; sourceTree = "<group>"; };
+		041976E61C8D24940050A4AB /* ZKCar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKCar.m; sourceTree = "<group>"; };
+		041976E81C8D25610050A4AB /* ZKCar+drive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ZKCar+drive.h"; sourceTree = "<group>"; };
+		041976E91C8D2E810050A4AB /* ZKOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKOutput.h; sourceTree = "<group>"; };
+		041976EC1C8D2FCB0050A4AB /* ZKProductable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKProductable.h; sourceTree = "<group>"; };
+		041976ED1C8D309D0050A4AB /* ZKPrintable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZKPrintable.h; sourceTree = "<group>"; };
+		041976EE1C8D320F0050A4AB /* ZKPrint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKPrint.h; sourceTree = "<group>"; };
+		041976EF1C8D320F0050A4AB /* ZKPrint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKPrint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,14 @@
 			isa = PBXGroup;
 			children = (
 				041976DE1C8D1DAC0050A4AB /* main.m */,
+				041976E51C8D24940050A4AB /* ZKCar.h */,
+				041976E61C8D24940050A4AB /* ZKCar.m */,
+				041976E81C8D25610050A4AB /* ZKCar+drive.h */,
+				041976E91C8D2E810050A4AB /* ZKOutput.h */,
+				041976EE1C8D320F0050A4AB /* ZKPrint.h */,
+				041976EF1C8D320F0050A4AB /* ZKPrint.m */,
+				041976EC1C8D2FCB0050A4AB /* ZKProductable.h */,
+				041976ED1C8D309D0050A4AB /* ZKPrintable.h */,
 			);
 			path = oopDemo04;
 			sourceTree = "<group>";
@@ -118,7 +136,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				041976F01C8D320F0050A4AB /* ZKPrint.m in Sources */,
 				041976DF1C8D1DAC0050A4AB /* main.m in Sources */,
+				041976E71C8D24940050A4AB /* ZKCar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +257,7 @@
 				041976E41C8D1DAC0050A4AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

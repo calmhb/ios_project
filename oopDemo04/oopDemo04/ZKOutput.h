@@ -11,6 +11,8 @@
 //定义协议：定义一个输出设备
 @protocol ZKOutput
   //定义协议的方法
+@optional
 -(void) output;
+@required
 -(void) addData:(NSString*) msg;
 @end
