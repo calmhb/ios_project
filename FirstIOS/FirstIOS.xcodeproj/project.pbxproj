@@ -10,11 +10,11 @@
 		041976FF1C8D5A840050A4AB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 041976FE1C8D5A840050A4AB /* main.m */; };
 		041977021C8D5A840050A4AB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 041977011C8D5A840050A4AB /* AppDelegate.m */; };
 		041977051C8D5A840050A4AB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041977041C8D5A840050A4AB /* ViewController.m */; };
-		041977081C8D5A840050A4AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 041977061C8D5A840050A4AB /* Main.storyboard */; };
 		0419770A1C8D5A840050A4AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 041977091C8D5A840050A4AB /* Assets.xcassets */; };
 		0419770D1C8D5A840050A4AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0419770B1C8D5A840050A4AB /* LaunchScreen.storyboard */; };
 		041977181C8D5A840050A4AB /* FirstIOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 041977171C8D5A840050A4AB /* FirstIOSTests.m */; };
 		041977231C8D5A840050A4AB /* FirstIOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 041977221C8D5A840050A4AB /* FirstIOSUITests.m */; };
+		041977591C8D6F220050A4AB /* ZKViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 041977581C8D6F220050A4AB /* ZKViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +41,6 @@
 		041977011C8D5A840050A4AB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		041977031C8D5A840050A4AB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		041977041C8D5A840050A4AB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		041977071C8D5A840050A4AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		041977091C8D5A840050A4AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0419770C1C8D5A840050A4AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0419770E1C8D5A840050A4AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -51,6 +50,8 @@
 		0419771E1C8D5A840050A4AB /* FirstIOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FirstIOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		041977221C8D5A840050A4AB /* FirstIOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstIOSUITests.m; sourceTree = "<group>"; };
 		041977241C8D5A840050A4AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		041977561C8D5ED80050A4AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		041977581C8D6F220050A4AB /* ZKViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZKViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +82,7 @@
 		041976F11C8D5A830050A4AB = {
 			isa = PBXGroup;
 			children = (
+				041977551C8D5DF20050A4AB /* Frameworks */,
 				041976FC1C8D5A840050A4AB /* FirstIOS */,
 				041977161C8D5A840050A4AB /* FirstIOSTests */,
 				041977211C8D5A840050A4AB /* FirstIOSUITests */,
@@ -101,11 +103,11 @@
 		041976FC1C8D5A840050A4AB /* FirstIOS */ = {
 			isa = PBXGroup;
 			children = (
+				041977581C8D6F220050A4AB /* ZKViewController.xib */,
 				041977001C8D5A840050A4AB /* AppDelegate.h */,
 				041977011C8D5A840050A4AB /* AppDelegate.m */,
 				041977031C8D5A840050A4AB /* ViewController.h */,
 				041977041C8D5A840050A4AB /* ViewController.m */,
-				041977061C8D5A840050A4AB /* Main.storyboard */,
 				041977091C8D5A840050A4AB /* Assets.xcassets */,
 				0419770B1C8D5A840050A4AB /* LaunchScreen.storyboard */,
 				0419770E1C8D5A840050A4AB /* Info.plist */,
@@ -138,6 +140,14 @@
 				041977241C8D5A840050A4AB /* Info.plist */,
 			);
 			path = FirstIOSUITests;
+			sourceTree = "<group>";
+		};
+		041977551C8D5DF20050A4AB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				041977561C8D5ED80050A4AB /* Foundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,7 +255,7 @@
 			files = (
 				0419770D1C8D5A840050A4AB /* LaunchScreen.storyboard in Resources */,
 				0419770A1C8D5A840050A4AB /* Assets.xcassets in Resources */,
-				041977081C8D5A840050A4AB /* Main.storyboard in Resources */,
+				041977591C8D6F220050A4AB /* ZKViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,14 +318,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		041977061C8D5A840050A4AB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				041977071C8D5A840050A4AB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		0419770B1C8D5A840050A4AB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -496,6 +498,7 @@
 				041977291C8D5A840050A4AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0419772A1C8D5A840050A4AB /* Build configuration list for PBXNativeTarget "FirstIOSTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +507,7 @@
 				0419772C1C8D5A840050A4AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0419772D1C8D5A840050A4AB /* Build configuration list for PBXNativeTarget "FirstIOSUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +516,7 @@
 				0419772F1C8D5A840050A4AB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
