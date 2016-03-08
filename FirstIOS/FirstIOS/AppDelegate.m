@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ViewController.h"
 
 @interface AppDelegate ()
 
@@ -14,32 +15,45 @@
 
 @implementation AppDelegate
 
-
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:
+   (NSDictionary *)launchOptions {
+    //当应用程序启动后将会调用该方法
+    //创建UIWindow对象，并初始化该窗口的大小与主屏幕大小相同
+    //程序将创建的UIWindow对象赋值给该程序委托对象的window属性
+    self.window=[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    //创建ViewController对象，并使用ViewController界面布局文件来初始化该视图控制器关联的
+    //用户界面
+    self.viewController=[[ViewController alloc] initWithNibName:
+                         @"ZKViewController" bundle:nil];
+    //让该程序的窗口加载并显示viewController视图控制器关联的用户界面
+    self.window.rootViewController=self.viewController;
+    //将该UIWindow对象设为主窗口，并显示出来
+    [self.window makeKeyAndVisible];
     return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
-    // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
-    // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.
+    //当应用程序从活动状态转入不活动状态时，系统将会调用该方法
+    //通常而言，当应用程序突然被中断(如有电话，短信进来时)，系统会回调该方法
+    //另外，当用户离开该程序，程序开始转入后台状态时也会回调该方法
 }
 
 - (void)applicationDidEnterBackground:(UIApplication *)application {
-    // Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later.
-    // If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
+   //通常通过重写该方法来释放共享资源，保存用户数据，取消定时器
+   //开发者通过该方法来保存足够的状态数据，这样保证用户重新启动该应用时能正确恢复到当前状态
+   //如果应用程序支持后台执行，当用户退出时，系统调用该方法，而不是调用
+    //applicationWillTerminate:方法
 }
 
 - (void)applicationWillEnterForeground:(UIApplication *)application {
-    // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+     //当应用程序将要进入前台是将会调用该方法
 }
 
 - (void)applicationDidBecomeActive:(UIApplication *)application {
-    // Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
+    // 当应用程序进入前台并转入活动状态是将会调用该方法
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application {
-    // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    //当应用程序被终止时，系统将会调用该方法
 }
-
 @end

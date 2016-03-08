@@ -8,10 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+@class ViewController;//Xcode 7.2新版本需要手动添加
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
-
 @property (strong, nonatomic) UIWindow *window;
-
-
+@property (strong,nonatomic) ViewController *viewController;
 @end
 
