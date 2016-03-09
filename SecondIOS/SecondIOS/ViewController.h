@@ -2,14 +2,12 @@
 //  ViewController.h
 //  SecondIOS
 //
-//  Created by Mac on 16/3/9.
-//  Copyright © 2016年 zk. All rights reserved.
-//
 
 #import <UIKit/UIKit.h>
-
 @interface ViewController : UIViewController
-
+@property (strong, nonatomic) IBOutlet UILabel *myTxt;
+- (IBAction)clickHandler:(UIButton *)sender;
+@property (weak, nonatomic) IBOutlet UIButton *loginBtn;
 
 @end
 

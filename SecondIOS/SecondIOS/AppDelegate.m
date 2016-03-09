@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "ViewController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -16,7 +18,19 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    //当应用程序启动后将会调用该方法
+    //创建UIWindow对象，并初始化该窗口的大小与主屏幕大小相同
+    //程序将创建的UIWindow对象赋值给该程序委托对象的window属性
+    self.window=[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    //创建ViewController对象，并使用ViewController界面布局文件来初始化该视图控制器关联的
+    //用户界面
+    self.viewController=[[ViewController alloc] initWithNibName:
+                         @"ViewController" bundle:nil];
+    //让该程序的窗口加载并显示viewController视图控制器关联的用户界面
+    self.window.rootViewController=self.viewController;
+    //将该UIWindow对象设为主窗口，并显示出来
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 
