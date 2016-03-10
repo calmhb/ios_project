@@ -36,6 +36,8 @@ int nextY=80;
     removeBtn.frame=CGRectMake(230, 30, 60, 40);
     //为UIButton设置按钮文本
     [removeBtn setTitle:@"删 除" forState:UIControlStateNormal];
+    //为removeBtn绑定删除事件
+    [removeBtn addTarget:self action:@selector(remove:) forControlEvents:UIControlEventTouchUpInside];
     
     [self.view addSubview:addBtn];
     [self.view addSubview:removeBtn];
@@ -49,8 +51,16 @@ int nextY=80;
     [self.labels addObject:label];//添加到labels数组中
     [self.view addSubview:label];//将UILabel添加到view父控件中
     nextY+=50;
-    
+}
 
+-(void) remove:(id)sender{
+   //如果labels数组元素个数大于0，表示UILabel可删除
+    if ([self.labels count]>0) {
+        //将最后一个UILabel从界面上删除
+        [[self.labels lastObject] removeFromSuperview];
+        [self.labels removeLastObject];//从labels数组中删除最后一个元素
+        nextY-=50;//控制nextY的值减50
+    }
 }
 
 - (void)didReceiveMemoryWarning {
