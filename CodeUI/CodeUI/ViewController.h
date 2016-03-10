@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
+//定义ViewController的扩展
 @interface ViewController : UIViewController
-
-
+//定义一个属性来记录所有动态添加的UILabel控件
+@property (nonatomic,strong) NSMutableArray* labels;
 @end
 
