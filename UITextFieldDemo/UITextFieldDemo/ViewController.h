@@ -9,7 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+- (IBAction)finshEdit:(UITextField *)sender;
+- (IBAction)backTap:(UIControl *)sender;
 
+@property (strong, nonatomic) IBOutlet UITextField *nameField;
+@property (strong, nonatomic) IBOutlet UITextField *pwdField;
 
 @end
 

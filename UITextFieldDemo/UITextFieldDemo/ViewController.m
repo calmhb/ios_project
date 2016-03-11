@@ -24,4 +24,17 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)finshEdit:(UITextField *)sender {
+    //sender放弃作为第一响应者
+    [sender resignFirstResponder];
+}
+
+- (IBAction)backTap:(UIControl *)sender {
+    //让用户名文本框放弃作为第一响应者
+    [self.nameField resignFirstResponder];
+    //让密码框放弃作为第一响应者
+    [self.pwdField resignFirstResponder];
+}
+
+
 @end
