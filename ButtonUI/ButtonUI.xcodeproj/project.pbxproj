@@ -15,6 +15,9 @@
 		044F364E1C92598100F717E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044F364C1C92598100F717E9 /* LaunchScreen.storyboard */; };
 		044F36591C92598100F717E9 /* ButtonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 044F36581C92598100F717E9 /* ButtonUITests.m */; };
 		044F36641C92598100F717E9 /* ButtonUIUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 044F36631C92598100F717E9 /* ButtonUIUITests.m */; };
+		044F36721C92753600F717E9 /* blue.png in Resources */ = {isa = PBXBuildFile; fileRef = 044F36711C92753600F717E9 /* blue.png */; };
+		044F36751C92769A00F717E9 /* gray.png in Resources */ = {isa = PBXBuildFile; fileRef = 044F36731C92769A00F717E9 /* gray.png */; };
+		044F36761C92769A00F717E9 /* red.png in Resources */ = {isa = PBXBuildFile; fileRef = 044F36741C92769A00F717E9 /* red.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,9 @@
 		044F365F1C92598100F717E9 /* ButtonUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ButtonUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		044F36631C92598100F717E9 /* ButtonUIUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ButtonUIUITests.m; sourceTree = "<group>"; };
 		044F36651C92598100F717E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		044F36711C92753600F717E9 /* blue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blue.png; path = ../../../../../Users/mac/Desktop/blue.png; sourceTree = "<group>"; };
+		044F36731C92769A00F717E9 /* gray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gray.png; path = ../../../../../Users/mac/Desktop/gray.png; sourceTree = "<group>"; };
+		044F36741C92769A00F717E9 /* red.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = red.png; path = ../../../../../Users/mac/Desktop/red.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,9 @@
 		044F363E1C92598100F717E9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				044F36731C92769A00F717E9 /* gray.png */,
+				044F36741C92769A00F717E9 /* red.png */,
+				044F36711C92753600F717E9 /* blue.png */,
 				044F363F1C92598100F717E9 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -244,8 +253,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				044F364E1C92598100F717E9 /* LaunchScreen.storyboard in Resources */,
+				044F36751C92769A00F717E9 /* gray.png in Resources */,
 				044F364B1C92598100F717E9 /* Assets.xcassets in Resources */,
+				044F36761C92769A00F717E9 /* red.png in Resources */,
 				044F36491C92598100F717E9 /* Main.storyboard in Resources */,
+				044F36721C92753600F717E9 /* blue.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +424,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ButtonUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zk.org.ButtonUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -423,6 +436,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ButtonUI/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zk.org.ButtonUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -496,6 +510,7 @@
 				044F366A1C92598100F717E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		044F366B1C92598100F717E9 /* Build configuration list for PBXNativeTarget "ButtonUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +519,7 @@
 				044F366D1C92598100F717E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		044F366E1C92598100F717E9 /* Build configuration list for PBXNativeTarget "ButtonUIUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +528,7 @@
 				044F36701C92598100F717E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
