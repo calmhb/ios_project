@@ -10,6 +10,11 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)disableClicked:(UIButton *)sender;
+
+
+@property (strong, nonatomic) IBOutlet UIButton *btn1;
+@property (strong, nonatomic) IBOutlet UIButton *btn2;
 
 @end
 
