@@ -10,11 +10,18 @@
 		0440311C1C97A82300BAFFBB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0440311B1C97A82300BAFFBB /* main.m */; };
 		0440311F1C97A82300BAFFBB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0440311E1C97A82300BAFFBB /* AppDelegate.m */; };
 		044031221C97A82300BAFFBB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044031211C97A82300BAFFBB /* ViewController.m */; };
-		044031251C97A82300BAFFBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044031231C97A82300BAFFBB /* Main.storyboard */; };
 		044031271C97A82300BAFFBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044031261C97A82300BAFFBB /* Assets.xcassets */; };
-		0440312A1C97A82300BAFFBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 044031281C97A82300BAFFBB /* LaunchScreen.storyboard */; };
 		044031351C97A82300BAFFBB /* UISwitchDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 044031341C97A82300BAFFBB /* UISwitchDemoTests.m */; };
 		044031401C97A82300BAFFBB /* UISwitchDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0440313F1C97A82300BAFFBB /* UISwitchDemoUITests.m */; };
+		0440314E1C97AF4300BAFFBB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0440314D1C97AF4200BAFFBB /* ViewController.xib */; };
+		044031501C97C17700BAFFBB /* minus.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0440314F1C97C17700BAFFBB /* minus.gif */; };
+		044031521C97C1BE00BAFFBB /* plus.gif in Resources */ = {isa = PBXBuildFile; fileRef = 044031511C97C1BE00BAFFBB /* plus.gif */; };
+		044031541C97E37500BAFFBB /* minCat.png in Resources */ = {isa = PBXBuildFile; fileRef = 044031531C97E37500BAFFBB /* minCat.png */; };
+		044031571C97E45A00BAFFBB /* no.gif in Resources */ = {isa = PBXBuildFile; fileRef = 044031551C97E45A00BAFFBB /* no.gif */; };
+		044031581C97E45A00BAFFBB /* ok.gif in Resources */ = {isa = PBXBuildFile; fileRef = 044031561C97E45A00BAFFBB /* ok.gif */; };
+		0440315B1C97E50E00BAFFBB /* grow.gif in Resources */ = {isa = PBXBuildFile; fileRef = 044031591C97E50E00BAFFBB /* grow.gif */; };
+		0440315C1C97E50E00BAFFBB /* heart.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0440315A1C97E50E00BAFFBB /* heart.gif */; };
+		0440315E1C97E7DB00BAFFBB /* z.png in Resources */ = {isa = PBXBuildFile; fileRef = 0440315D1C97E7DB00BAFFBB /* z.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,9 +48,7 @@
 		0440311E1C97A82300BAFFBB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		044031201C97A82300BAFFBB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		044031211C97A82300BAFFBB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		044031241C97A82300BAFFBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		044031261C97A82300BAFFBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		044031291C97A82300BAFFBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0440312B1C97A82300BAFFBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		044031301C97A82300BAFFBB /* UISwitchDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UISwitchDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		044031341C97A82300BAFFBB /* UISwitchDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UISwitchDemoTests.m; sourceTree = "<group>"; };
@@ -51,6 +56,15 @@
 		0440313B1C97A82300BAFFBB /* UISwitchDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UISwitchDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0440313F1C97A82300BAFFBB /* UISwitchDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UISwitchDemoUITests.m; sourceTree = "<group>"; };
 		044031411C97A82300BAFFBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0440314D1C97AF4200BAFFBB /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		0440314F1C97C17700BAFFBB /* minus.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = minus.gif; path = "../../../../../Users/mac/Desktop/疯狂讲义iOS(上)/codes/10/10.13/UIStepperTest/UIStepperTest/minus.gif"; sourceTree = "<group>"; };
+		044031511C97C1BE00BAFFBB /* plus.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = plus.gif; path = "../../../../../Users/mac/Desktop/疯狂讲义iOS(上)/codes/10/10.13/UIStepperTest/UIStepperTest/plus.gif"; sourceTree = "<group>"; };
+		044031531C97E37500BAFFBB /* minCat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = minCat.png; path = ../../../../../Users/mac/Documents/minCat.png; sourceTree = "<group>"; };
+		044031551C97E45A00BAFFBB /* no.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = no.gif; path = "../../../../../Users/mac/Desktop/疯狂讲义iOS(上)/codes/10/10.9/UISliderTest/UISliderTest/images/no.gif"; sourceTree = "<group>"; };
+		044031561C97E45A00BAFFBB /* ok.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = ok.gif; path = "../../../../../Users/mac/Desktop/疯狂讲义iOS(上)/codes/10/10.9/UISliderTest/UISliderTest/images/ok.gif"; sourceTree = "<group>"; };
+		044031591C97E50E00BAFFBB /* grow.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = grow.gif; path = "../../../../../Users/mac/Desktop/疯狂讲义iOS(上)/codes/10/10.9/UISliderTest/UISliderTest/images/grow.gif"; sourceTree = "<group>"; };
+		0440315A1C97E50E00BAFFBB /* heart.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = heart.gif; path = "../../../../../Users/mac/Desktop/疯狂讲义iOS(上)/codes/10/10.9/UISliderTest/UISliderTest/images/heart.gif"; sourceTree = "<group>"; };
+		0440315D1C97E7DB00BAFFBB /* z.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = z.png; path = ../../../../../Users/mac/Desktop/z.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,11 +119,10 @@
 				0440311E1C97A82300BAFFBB /* AppDelegate.m */,
 				044031201C97A82300BAFFBB /* ViewController.h */,
 				044031211C97A82300BAFFBB /* ViewController.m */,
-				044031231C97A82300BAFFBB /* Main.storyboard */,
 				044031261C97A82300BAFFBB /* Assets.xcassets */,
-				044031281C97A82300BAFFBB /* LaunchScreen.storyboard */,
 				0440312B1C97A82300BAFFBB /* Info.plist */,
 				0440311A1C97A82300BAFFBB /* Supporting Files */,
+				0440314D1C97AF4200BAFFBB /* ViewController.xib */,
 			);
 			path = UISwitchDemo;
 			sourceTree = "<group>";
@@ -117,6 +130,14 @@
 		0440311A1C97A82300BAFFBB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0440315D1C97E7DB00BAFFBB /* z.png */,
+				044031591C97E50E00BAFFBB /* grow.gif */,
+				0440315A1C97E50E00BAFFBB /* heart.gif */,
+				044031551C97E45A00BAFFBB /* no.gif */,
+				044031561C97E45A00BAFFBB /* ok.gif */,
+				044031531C97E37500BAFFBB /* minCat.png */,
+				044031511C97C1BE00BAFFBB /* plus.gif */,
+				0440314F1C97C17700BAFFBB /* minus.gif */,
 				0440311B1C97A82300BAFFBB /* main.m */,
 			);
 			name = "Supporting Files";
@@ -243,9 +264,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0440312A1C97A82300BAFFBB /* LaunchScreen.storyboard in Resources */,
+				044031541C97E37500BAFFBB /* minCat.png in Resources */,
+				0440315C1C97E50E00BAFFBB /* heart.gif in Resources */,
+				044031521C97C1BE00BAFFBB /* plus.gif in Resources */,
+				044031581C97E45A00BAFFBB /* ok.gif in Resources */,
+				0440315B1C97E50E00BAFFBB /* grow.gif in Resources */,
+				0440314E1C97AF4300BAFFBB /* ViewController.xib in Resources */,
 				044031271C97A82300BAFFBB /* Assets.xcassets in Resources */,
-				044031251C97A82300BAFFBB /* Main.storyboard in Resources */,
+				044031501C97C17700BAFFBB /* minus.gif in Resources */,
+				0440315E1C97E7DB00BAFFBB /* z.png in Resources */,
+				044031571C97E45A00BAFFBB /* no.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,25 +334,6 @@
 			targetProxy = 0440313C1C97A82300BAFFBB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		044031231C97A82300BAFFBB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				044031241C97A82300BAFFBB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		044031281C97A82300BAFFBB /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				044031291C97A82300BAFFBB /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		044031421C97A82300BAFFBB /* Debug */ = {

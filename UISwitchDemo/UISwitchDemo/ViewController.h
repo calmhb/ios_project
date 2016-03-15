@@ -9,6 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UITextField *stepperTxt;
+- (IBAction)stepperValueChange:(UIStepper *)sender;
+@property (strong, nonatomic) IBOutlet UIStepper *stepper;
+@property (strong, nonatomic) IBOutlet UIStepper *myself;
+
 
 
 @end

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ViewController">
+            <connections>
+                <outlet property="alphaSlider" destination="Yad-i0-B2V" id="IN3-Cf-Rkh"/>
+                <outlet property="colorLabel" destination="Xyl-Hh-c0L" id="5yX-1w-IQU"/>
+                <outlet property="img" destination="CXI-ep-sIF" id="OcC-fF-26H"/>
+                <outlet property="myself" destination="0HC-1r-ff8" id="hJa-LJ-vWP"/>
+                <outlet property="showLabel" destination="Da8-KE-lN3" id="Cmz-V2-wQm"/>
+                <outlet property="stepper" destination="4rb-Sm-GQB" id="4c0-9j-6tf"/>
+                <outlet property="stepperTxt" destination="Uom-vY-tkg" id="RDU-SM-MHX"/>
+                <outlet property="view" destination="iN0-l3-epB" id="woq-0Y-qYP"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="4rb-Sm-GQB">
+                    <rect key="frame" x="8" y="45" width="94" height="29"/>
+                    <connections>
+                        <action selector="stepperValueChange:" destination="-1" eventType="valueChanged" id="LId-C9-TH0"/>
+                    </connections>
+                </stepper>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Uom-vY-tkg">
+                    <rect key="frame" x="110" y="45" width="97" height="30"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="0HC-1r-ff8">
+                    <rect key="frame" x="8" y="87" width="94" height="29"/>
+                </stepper>
+                <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="0j5-17-DqK">
+                    <rect key="frame" x="108" y="176" width="118" height="31"/>
+                    <connections>
+                        <action selector="sliderValueChange:" destination="-1" eventType="valueChanged" id="Kuf-aZ-WW8"/>
+                    </connections>
+                </slider>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="值:0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Da8-KE-lN3">
+                    <rect key="frame" x="47" y="180" width="55" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xyl-Hh-c0L">
+                    <rect key="frame" x="33" y="227" width="250" height="38"/>
+                    <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="minCat.png" translatesAutoresizingMaskIntoConstraints="NO" id="CXI-ep-sIF">
+                    <rect key="frame" x="38" y="284" width="240" height="128"/>
+                </imageView>
+                <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" minimumValueImage="no.gif" maximumValueImage="ok.gif" translatesAutoresizingMaskIntoConstraints="NO" id="Yad-i0-B2V">
+                    <rect key="frame" x="36" y="425" width="244" height="31"/>
+                    <connections>
+                        <action selector="sliderChangeAlpha:" destination="-1" eventType="valueChanged" id="Dqz-oN-78K"/>
+                    </connections>
+                </slider>
+                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="bw7-mg-pIg">
+                    <rect key="frame" x="31" y="133" width="51" height="31"/>
+                    <connections>
+                        <action selector="changeBackColor:" destination="-1" eventType="valueChanged" id="n4h-1F-bvA"/>
+                    </connections>
+                </switch>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <point key="canvasLocation" x="353" y="326"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="minCat.png" width="500" height="356"/>
+        <image name="no.gif" width="16" height="16"/>
+        <image name="ok.gif" width="16" height="16"/>
+    </resources>
+</document>
