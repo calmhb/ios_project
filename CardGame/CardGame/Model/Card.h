@@ -12,6 +12,7 @@
 @property (nonatomic,getter=isChosen) BOOL chosen;//是否翻转
 @property (nonatomic,getter=isMatched) BOOL matched;//是否被匹配
 @property (nonatomic,strong) NSString* suit;//花色 ♠️♣️♥️♦️
+@property (nonatomic, strong, readonly)NSString *content;//这张牌的内容, 如:"♣️A"
 @property (nonatomic)NSUInteger rank;//点数
 //和另一个扑克牌匹配,返回得分
 -(int) match:(Card*) otherCard;
