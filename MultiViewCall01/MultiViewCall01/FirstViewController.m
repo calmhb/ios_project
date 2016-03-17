@@ -10,11 +10,18 @@
 #import "SecondViewController.h"
 
 @interface FirstViewController ()
-@property (strong, nonatomic) IBOutlet UITextField *textField;
-
+   @property (strong, nonatomic) IBOutlet UITextField *textField;
 @end
 
 @implementation FirstViewController
+
+- (void) viewWillAppear:(BOOL)animated
+{
+     [super viewWillAppear:animated];
+    NSLog(@"%@",self.msg);
+     self.firstLabel.text=self.msg;
+}
+
 //为按钮绑定方法跳转到界面二
 - (IBAction)toSecond:(UIButton *)sender {
     //初始化界面二
@@ -23,6 +30,7 @@
    
     //获得用户输入的值,赋给SecondViewController的content属性
     secondVC.content=self.textField.text;
+    secondVC.first=self;
     
     [self presentViewController:secondVC animated:YES completion:nil];
     

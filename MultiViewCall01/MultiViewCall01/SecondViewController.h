@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FirstViewController.h"
 
 @interface SecondViewController : UIViewController
-@property (nonatomic,strong) NSString * content;
+@property (nonatomic,strong) NSString* content;
+@property (weak,nonatomic) FirstViewController *first;
 @end

@@ -8,14 +8,16 @@
 
 #import "SecondViewController.h"
 
+
 @interface SecondViewController ()
 @property (strong, nonatomic) IBOutlet UILabel *secondLabel;
 
+@property (strong, nonatomic) IBOutlet UITextField *textField;
 @end
 
 @implementation SecondViewController
 - (IBAction)toFirstVC:(UIButton *)sender {
-    
+    self.first.msg=self.textField.text;
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 //覆盖父类的方法,在界面显示之前会调用该方法
