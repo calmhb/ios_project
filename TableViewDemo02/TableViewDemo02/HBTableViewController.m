@@ -51,6 +51,7 @@
     }
     //配置cell
     cell.imageView.image=[UIImage imageNamed:@"cat.png"];
+    //cell样式如果是Default,该详细信息是不会显示
     cell.detailTextLabel.text=@"这是详细信息";
     return cell;
 }
