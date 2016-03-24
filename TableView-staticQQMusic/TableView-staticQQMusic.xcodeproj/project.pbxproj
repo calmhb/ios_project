@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0428D87B1CA3DB1000EEA2E6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0428D87A1CA3DB1000EEA2E6 /* main.m */; };
+		0428D87E1CA3DB1000EEA2E6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0428D87D1CA3DB1000EEA2E6 /* AppDelegate.m */; };
+		0428D8811CA3DB1000EEA2E6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0428D8801CA3DB1000EEA2E6 /* ViewController.m */; };
+		0428D8861CA3DB1000EEA2E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0428D8851CA3DB1000EEA2E6 /* Assets.xcassets */; };
+		0428D8941CA3DB1000EEA2E6 /* TableView_staticQQMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0428D8931CA3DB1000EEA2E6 /* TableView_staticQQMusicTests.m */; };
+		0428D89F1CA3DB1000EEA2E6 /* TableView_staticQQMusicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0428D89E1CA3DB1000EEA2E6 /* TableView_staticQQMusicUITests.m */; };
+		0428D8AF1CA3DC4E00EEA2E6 /* QplayConfigTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0428D8AD1CA3DC4E00EEA2E6 /* QplayConfigTableViewController.m */; };
+		0428D8B01CA3DC4E00EEA2E6 /* QplayConfigTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0428D8AE1CA3DC4E00EEA2E6 /* QplayConfigTableViewController.xib */; };
+		0428D8B21CA3E10300EEA2E6 /* user.png in Resources */ = {isa = PBXBuildFile; fileRef = 0428D8B11CA3E10300EEA2E6 /* user.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0428D8901CA3DB1000EEA2E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0428D86E1CA3DB1000EEA2E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0428D8751CA3DB1000EEA2E6;
+			remoteInfo = "TableView-staticQQMusic";
+		};
+		0428D89B1CA3DB1000EEA2E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0428D86E1CA3DB1000EEA2E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0428D8751CA3DB1000EEA2E6;
+			remoteInfo = "TableView-staticQQMusic";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0428D8761CA3DB1000EEA2E6 /* TableView-staticQQMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TableView-staticQQMusic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0428D87A1CA3DB1000EEA2E6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0428D87C1CA3DB1000EEA2E6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0428D87D1CA3DB1000EEA2E6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0428D87F1CA3DB1000EEA2E6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0428D8801CA3DB1000EEA2E6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0428D8851CA3DB1000EEA2E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0428D88A1CA3DB1000EEA2E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0428D88F1CA3DB1000EEA2E6 /* TableView-staticQQMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TableView-staticQQMusicTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0428D8931CA3DB1000EEA2E6 /* TableView_staticQQMusicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableView_staticQQMusicTests.m; sourceTree = "<group>"; };
+		0428D8951CA3DB1000EEA2E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0428D89A1CA3DB1000EEA2E6 /* TableView-staticQQMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TableView-staticQQMusicUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0428D89E1CA3DB1000EEA2E6 /* TableView_staticQQMusicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableView_staticQQMusicUITests.m; sourceTree = "<group>"; };
+		0428D8A01CA3DB1100EEA2E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0428D8AC1CA3DC4E00EEA2E6 /* QplayConfigTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QplayConfigTableViewController.h; sourceTree = "<group>"; };
+		0428D8AD1CA3DC4E00EEA2E6 /* QplayConfigTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QplayConfigTableViewController.m; sourceTree = "<group>"; };
+		0428D8AE1CA3DC4E00EEA2E6 /* QplayConfigTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QplayConfigTableViewController.xib; sourceTree = "<group>"; };
+		0428D8B11CA3E10300EEA2E6 /* user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = user.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0428D8731CA3DB1000EEA2E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0428D88C1CA3DB1000EEA2E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0428D8971CA3DB1000EEA2E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0428D86D1CA3DB1000EEA2E6 = {
+			isa = PBXGroup;
+			children = (
+				0428D8781CA3DB1000EEA2E6 /* TableView-staticQQMusic */,
+				0428D8921CA3DB1000EEA2E6 /* TableView-staticQQMusicTests */,
+				0428D89D1CA3DB1000EEA2E6 /* TableView-staticQQMusicUITests */,
+				0428D8771CA3DB1000EEA2E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0428D8771CA3DB1000EEA2E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0428D8761CA3DB1000EEA2E6 /* TableView-staticQQMusic.app */,
+				0428D88F1CA3DB1000EEA2E6 /* TableView-staticQQMusicTests.xctest */,
+				0428D89A1CA3DB1000EEA2E6 /* TableView-staticQQMusicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0428D8781CA3DB1000EEA2E6 /* TableView-staticQQMusic */ = {
+			isa = PBXGroup;
+			children = (
+				0428D8B11CA3E10300EEA2E6 /* user.png */,
+				0428D8AC1CA3DC4E00EEA2E6 /* QplayConfigTableViewController.h */,
+				0428D8AD1CA3DC4E00EEA2E6 /* QplayConfigTableViewController.m */,
+				0428D8AE1CA3DC4E00EEA2E6 /* QplayConfigTableViewController.xib */,
+				0428D8791CA3DB1000EEA2E6 /* Supporting Files */,
+			);
+			path = "TableView-staticQQMusic";
+			sourceTree = "<group>";
+		};
+		0428D8791CA3DB1000EEA2E6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0428D87C1CA3DB1000EEA2E6 /* AppDelegate.h */,
+				0428D87D1CA3DB1000EEA2E6 /* AppDelegate.m */,
+				0428D87F1CA3DB1000EEA2E6 /* ViewController.h */,
+				0428D8801CA3DB1000EEA2E6 /* ViewController.m */,
+				0428D8851CA3DB1000EEA2E6 /* Assets.xcassets */,
+				0428D88A1CA3DB1000EEA2E6 /* Info.plist */,
+				0428D87A1CA3DB1000EEA2E6 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0428D8921CA3DB1000EEA2E6 /* TableView-staticQQMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				0428D8931CA3DB1000EEA2E6 /* TableView_staticQQMusicTests.m */,
+				0428D8951CA3DB1000EEA2E6 /* Info.plist */,
+			);
+			path = "TableView-staticQQMusicTests";
+			sourceTree = "<group>";
+		};
+		0428D89D1CA3DB1000EEA2E6 /* TableView-staticQQMusicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0428D89E1CA3DB1000EEA2E6 /* TableView_staticQQMusicUITests.m */,
+				0428D8A01CA3DB1100EEA2E6 /* Info.plist */,
+			);
+			path = "TableView-staticQQMusicUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0428D8751CA3DB1000EEA2E6 /* TableView-staticQQMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0428D8A31CA3DB1100EEA2E6 /* Build configuration list for PBXNativeTarget "TableView-staticQQMusic" */;
+			buildPhases = (
+				0428D8721CA3DB1000EEA2E6 /* Sources */,
+				0428D8731CA3DB1000EEA2E6 /* Frameworks */,
+				0428D8741CA3DB1000EEA2E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TableView-staticQQMusic";
+			productName = "TableView-staticQQMusic";
+			productReference = 0428D8761CA3DB1000EEA2E6 /* TableView-staticQQMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0428D88E1CA3DB1000EEA2E6 /* TableView-staticQQMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0428D8A61CA3DB1100EEA2E6 /* Build configuration list for PBXNativeTarget "TableView-staticQQMusicTests" */;
+			buildPhases = (
+				0428D88B1CA3DB1000EEA2E6 /* Sources */,
+				0428D88C1CA3DB1000EEA2E6 /* Frameworks */,
+				0428D88D1CA3DB1000EEA2E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0428D8911CA3DB1000EEA2E6 /* PBXTargetDependency */,
+			);
+			name = "TableView-staticQQMusicTests";
+			productName = "TableView-staticQQMusicTests";
+			productReference = 0428D88F1CA3DB1000EEA2E6 /* TableView-staticQQMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0428D8991CA3DB1000EEA2E6 /* TableView-staticQQMusicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0428D8A91CA3DB1100EEA2E6 /* Build configuration list for PBXNativeTarget "TableView-staticQQMusicUITests" */;
+			buildPhases = (
+				0428D8961CA3DB1000EEA2E6 /* Sources */,
+				0428D8971CA3DB1000EEA2E6 /* Frameworks */,
+				0428D8981CA3DB1000EEA2E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0428D89C1CA3DB1000EEA2E6 /* PBXTargetDependency */,
+			);
+			name = "TableView-staticQQMusicUITests";
+			productName = "TableView-staticQQMusicUITests";
+			productReference = 0428D89A1CA3DB1000EEA2E6 /* TableView-staticQQMusicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0428D86E1CA3DB1000EEA2E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = zk;
+				TargetAttributes = {
+					0428D8751CA3DB1000EEA2E6 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					0428D88E1CA3DB1000EEA2E6 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 0428D8751CA3DB1000EEA2E6;
+					};
+					0428D8991CA3DB1000EEA2E6 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 0428D8751CA3DB1000EEA2E6;
+					};
+				};
+			};
+			buildConfigurationList = 0428D8711CA3DB1000EEA2E6 /* Build configuration list for PBXProject "TableView-staticQQMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0428D86D1CA3DB1000EEA2E6;
+			productRefGroup = 0428D8771CA3DB1000EEA2E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0428D8751CA3DB1000EEA2E6 /* TableView-staticQQMusic */,
+				0428D88E1CA3DB1000EEA2E6 /* TableView-staticQQMusicTests */,
+				0428D8991CA3DB1000EEA2E6 /* TableView-staticQQMusicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0428D8741CA3DB1000EEA2E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0428D8861CA3DB1000EEA2E6 /* Assets.xcassets in Resources */,
+				0428D8B01CA3DC4E00EEA2E6 /* QplayConfigTableViewController.xib in Resources */,
+				0428D8B21CA3E10300EEA2E6 /* user.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0428D88D1CA3DB1000EEA2E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0428D8981CA3DB1000EEA2E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0428D8721CA3DB1000EEA2E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0428D8811CA3DB1000EEA2E6 /* ViewController.m in Sources */,
+				0428D87E1CA3DB1000EEA2E6 /* AppDelegate.m in Sources */,
+				0428D8AF1CA3DC4E00EEA2E6 /* QplayConfigTableViewController.m in Sources */,
+				0428D87B1CA3DB1000EEA2E6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0428D88B1CA3DB1000EEA2E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0428D8941CA3DB1000EEA2E6 /* TableView_staticQQMusicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0428D8961CA3DB1000EEA2E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0428D89F1CA3DB1000EEA2E6 /* TableView_staticQQMusicUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0428D8911CA3DB1000EEA2E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0428D8751CA3DB1000EEA2E6 /* TableView-staticQQMusic */;
+			targetProxy = 0428D8901CA3DB1000EEA2E6 /* PBXContainerItemProxy */;
+		};
+		0428D89C1CA3DB1000EEA2E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0428D8751CA3DB1000EEA2E6 /* TableView-staticQQMusic */;
+			targetProxy = 0428D89B1CA3DB1000EEA2E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0428D8A11CA3DB1100EEA2E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0428D8A21CA3DB1100EEA2E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0428D8A41CA3DB1100EEA2E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TableView-staticQQMusic/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zk.org.TableView-staticQQMusic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0428D8A51CA3DB1100EEA2E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "TableView-staticQQMusic/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zk.org.TableView-staticQQMusic";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0428D8A71CA3DB1100EEA2E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TableView-staticQQMusicTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zk.org.TableView-staticQQMusicTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableView-staticQQMusic.app/TableView-staticQQMusic";
+			};
+			name = Debug;
+		};
+		0428D8A81CA3DB1100EEA2E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TableView-staticQQMusicTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zk.org.TableView-staticQQMusicTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableView-staticQQMusic.app/TableView-staticQQMusic";
+			};
+			name = Release;
+		};
+		0428D8AA1CA3DB1100EEA2E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TableView-staticQQMusicUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zk.org.TableView-staticQQMusicUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TableView-staticQQMusic";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		0428D8AB1CA3DB1100EEA2E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TableView-staticQQMusicUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "zk.org.TableView-staticQQMusicUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TableView-staticQQMusic";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0428D8711CA3DB1000EEA2E6 /* Build configuration list for PBXProject "TableView-staticQQMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0428D8A11CA3DB1100EEA2E6 /* Debug */,
+				0428D8A21CA3DB1100EEA2E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0428D8A31CA3DB1100EEA2E6 /* Build configuration list for PBXNativeTarget "TableView-staticQQMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0428D8A41CA3DB1100EEA2E6 /* Debug */,
+				0428D8A51CA3DB1100EEA2E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0428D8A61CA3DB1100EEA2E6 /* Build configuration list for PBXNativeTarget "TableView-staticQQMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0428D8A71CA3DB1100EEA2E6 /* Debug */,
+				0428D8A81CA3DB1100EEA2E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0428D8A91CA3DB1100EEA2E6 /* Build configuration list for PBXNativeTarget "TableView-staticQQMusicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0428D8AA1CA3DB1100EEA2E6 /* Debug */,
+				0428D8AB1CA3DB1100EEA2E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0428D86E1CA3DB1000EEA2E6 /* Project object */;
+}
