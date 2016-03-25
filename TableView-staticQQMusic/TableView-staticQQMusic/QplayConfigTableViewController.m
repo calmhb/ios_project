@@ -81,4 +81,19 @@
     
     return  nil;
 }
+//绑定Action
+- (IBAction)timeOff:(UISwitch *)sender {
+    NSLog(@"定时关闭,开关状态%d",sender.on);
+}
+
+- (IBAction)look:(id)sender {
+    NSLog(@"被关注了 ....");
+}
+- (IBAction)logOut:(id)sender {
+    NSLog(@"退出登录....");
+}
+
+
+
+
 @end
